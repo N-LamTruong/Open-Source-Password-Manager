@@ -196,7 +196,7 @@ docker-compose-ce.yaml: OK
         traefik.http.routers.passbolt-https.tls.certresolver: "letsencrypt"
     ```
     **Trong đó:**
-    - image: passbolt/passbolt:4.0.2-2-ce (Nên dụng version -ce mới nhất để được hỗ trợ MFA. Chi tiết [tại đây](https://hub.docker.com/r/passbolt/passbolt/tags))
+    - image: passbolt/passbolt:4.0.2-2-ce (Nên sử dụng version -ce mới nhất để được hỗ trợ MFA. Chi tiết [tại đây](https://hub.docker.com/r/passbolt/passbolt/tags))
     - APP_FULL_BASE_URL: Sử dụng domain của bạn, đã có bản ghi A trỏ đến server
     - Các environment DATASOURCES_DEFAULT_USERNAME, DATASOURCES_DEFAULT_PASSWORD, DATASOURCES_DEFAULT_DATABASE sử dụng lại từ service db đầu tiên
     - Các environment EMAIL_TRANSPORT_DEFAULT (Tìm hiểu chi tiết [tại đây](https://help.passbolt.com/configure/email/setup)):
