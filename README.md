@@ -5,7 +5,7 @@ Ví dụ như mật khẩu wifi của văn phòng, mật khẩu quản trị c�
 
 ![Passbolt](Picture/passbolt-logo.png)
 
-![Passbolt 2](Picture/Passbolt%202.png)
+![Passbolt 2](Picture/Passbolt.png)
 
 ## Passbolt Features
 - Passbolt là một công cụ quản lý mật khẩu miễn phí và mã nguồn mở.
