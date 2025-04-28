@@ -31,11 +31,13 @@ Ví dụ như mật khẩu wifi của văn phòng, mật khẩu quản trị c�
 
 - Máy chủ SMTP đang hoặt động để nhận thông báo qua email
 
-- [Dịch vụ NTP](https://help.passbolt.com/faq/hosting/set-up-ntp) đang hoạt động để tránh các sự cố xác thực GPG
+- [Dịch vụ NTP](https://www.passbolt.com/docs/hosting/configure/ntp/) đang hoạt động để tránh các sự cố xác thực GPG
 
-- Quy tắc [Firewall](https://help.passbolt.com/faq/hosting/firewall-rules)
+- Quy tắc [Firewall](https://www.passbolt.com/docs/hosting/configure/firewall-rules/)
 
 ## Docker passbolt installation
+### **Tài liệu trang chủ: [tại đây](https://www.passbolt.com/docs/hosting/install/ce/docker/)**
+
 Lên tạo 1 folder riêng cho project, tên tùy theo nhu cầu cá nhân. Trong hướng dẫn này mình sẽ tạo folder có tên: **passbolt**
 ### 1. Tải xuống file mẫu docker-compose.yml của passbolt
 ```console
